@@ -28,6 +28,23 @@
     align-items: center;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact ul li p{
+    display: none;
+    position: absolute;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.contact ul li a:hover + p{
+    display: flex;
+}
+
 ul {
     font-size: 1.5rem;
     display: flex;
